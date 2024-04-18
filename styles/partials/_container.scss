@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+   .pokemon1-results, .pokemon2-results, .pokemon1-select, .pokemon2-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .pokemon1-results, .pokemon2-results {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .pokeDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 25px;
+    
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  .winner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  }

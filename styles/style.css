@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300..700&display=swap");
+header {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  font-size: 48px;
+  text-align: center;
+}
+header p {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .pokemon1-results, .container .pokemon2-results, .container .pokemon1-select, .container .pokemon2-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .pokemon1-results, .container .pokemon2-results {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.container .pokeDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 25px;
+}
+.container ul {
+  list-style: none;
+}
+.container .winner-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.combat-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 35px;
+}
+.combat-container .combat-pokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 35px;
+}
+
+.combat-results, .combat-winner {
+  text-align: center;
+  margin: 70px 5px;
+  padding: 25px;
+}
+
+.combat-winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hp-bar {
+  width: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: calc(1em + 0.5rem);
+  background-color: black;
+  color: white;
+}
+
+body {
+  font-family: "Press Start 2P", system-ui;
+}
+body .section {
+  margin-top: 2.5rem;
+}
+body .pokemon-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+body .try-again {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .try-again .try-again-btn {
+  display: none;
+}
+body footer {
+  text-align: center;
+  font-size: 0.5rem;
+}/*# sourceMappingURL=style.css.map */

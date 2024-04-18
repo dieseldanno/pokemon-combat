@@ -1,0 +1,59 @@
+.combat-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    margin: 35px;
+
+    .combat-pokemon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 35px;
+
+    }
+
+}
+
+.combat-results, .combat-winner {
+    text-align: center;
+    margin: 70px 5px;
+    padding: 25px;
+
+}
+
+.combat-winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp-bar {
+    width: 200px;
+}
+
+
+// .empty-msg {
+//     border: 1px solid white;
+//     font-family: "Press Start 2P", system-ui;
+//     font-size: 16px;
+//     background:linear-gradient(90deg,#000 50%,#0000 0) right/200% 100%;
+//     animation:c1 2s infinite linear;
+// }
+  
+//   .empty-msg::before {
+//     content:"LOADING...";
+//     color:#0000;
+//     padding:0 5px;
+//     background:linear-gradient(90deg,#fff 50%,#000 0);
+//     -webkit-background-clip:text;
+//     background-clip:text;
+//     background-size:inherit;
+//     background-position: inherit;
+//   }
+  
+//   @keyframes c1{
+//     100%{background-position: left}
+//   }

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@300..700&display=swap');
+@import "partials/variables";
+@import "partials/header";
+@import "partials/container";
+@import "partials/combat";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: calc(1em + 0.5rem);
+    background-color: black;
+    color: white;
+  }
+  
+body {
+    font-family: "Press Start 2P", system-ui;
+
+    .section {
+        margin-top: 2.5rem;
+    }
+
+    .pokemon-btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .try-again {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .try-again-btn {
+            display: none;
+        }
+    }
+
+    footer {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}
+
+
