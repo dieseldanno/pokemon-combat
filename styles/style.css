@@ -42,9 +42,8 @@ header p {
   list-style: none;
 }
 .container .winner-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 .combat-container {
